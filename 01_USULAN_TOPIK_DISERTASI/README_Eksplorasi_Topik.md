@@ -1,40 +1,43 @@
-# 🧭 Eksplorasi & Analisis 4 Usulan Topik Disertasi Doktoral
+# 🧭 Eksplorasi 4 Usulan Topik Disertasi Doktoral: Domain Digital Forensik
 ### **Calon Peneliti: Hario Jati Setyadi, S.Kom., M.Kom.**
 **Institusi Tujuan:** Program Doktor Ilmu Komputer (PDIK), Universitas Dian Nuswantoro (UDINUS)  
+**Bidang Minat Pilihan Kandidat:** **Digital Forensik & Keamanan Informasi (Cybersecurity & Digital Forensics)**  
 **Jabatan Profesi:** Ketua APTIKOM Provinsi Kalimantan Timur (2026–2030)
 
 ---
 
-## 🎯 Rasionalisasi Penentuan Topik Doktoral (S3)
+## 🎯 Mengapa Memilih Digital Forensik untuk Disertasi S3 PDIK UDINUS?
 
-Sebagai lulusan Magister Teknik Informatika dari ITS dengan Scopus/Global h-index 10 (89+ karya ilmiah dan 340+ sitasi), perumusan topik disertasi Pak Hario dirancang untuk memenuhi standar tertinggi promotor & penguji PDIK UDINUS:
+Pilihan Pak Hario untuk mengangkat ranah **Digital Forensik** sangat tepat, strategis, dan memiliki bobot akademik yang sangat kuat di PDIK UDINUS:
 
-1. **Rigorous Computational & Methodological Novelty:** Menyajikan kebaruan algoritma, meta-model formal, atau optimasi cerdas tingkat doktoral.
-2. **State-of-the-Art (SOTA) Gap:** Menjawab limitasi literatur top-tier 5 tahun terakhir (2021–2026).
-3. **High Publication Feasibility:** Berpotensi kuat menghasilkan 2–3 artikel pada jurnal internasional bereputasi Scopus Q1/Q2 (ACM, IEEE, Elsevier, Springer).
-4. **Organic Track Record Synergy:** Memanfaatkan rekam jejak riset *Human-Computer Interaction (Technostress)*, *Deep Learning*, *CI/CD Cloud DevOps*, dan *AI Agent*.
-
----
-
-## 📑 Daftar 4 Dokumen Usulan Topik Rinci
-
-1. [**Topik 01: Intelligent Adaptive User Interface Framework Based on Real-Time Cognitive Load and Technostress Detection**](./Topik_01_Adaptive_HCI_Technostress_Deep_Learning.md)  
-   *(Rekomendasi Utama – Human-Centric AI & Adaptive HCI Track)*
-2. [**Topik 02: Autonomous and Self-Healing CI/CD Pipeline Architecture Based on Predictive Machine Learning**](./Topik_02_Self_Healing_CICD_Cloud_Microservices.md)  
-   *(DevOps & Resilient Cloud Architecture Track)*
-3. [**Topik 03: Explainable Multi-Modal Deep Learning Framework for Medical Diagnostics with Human-in-the-Loop Decision Support**](./Topik_03_Explainable_Multimodal_Medical_AI.md)  
-   *(Applied Medical AI & Computer Vision Track)*
-4. [**Topik 04: Intelligent Information System Adoption Framework Based on AI Agents and Dynamic Response Theory**](./Topik_04_Smart_Governance_AI_Agent_Adoption.md)  
-   *(Smart Governance & Multi-Agent Systems Track)*
+1. **Linearitas Kuat dengan Publikasi Keamanan Siber Beliau:**  
+   Pak Hario memiliki rekam jejak riset dalam *Penetration Testing (Framework ISSAF)*, *Web Server Vulnerability (Sqlmap/Kali Linux)*, *Infrastruktur CI/CD & Docker (2025)*, serta *Computer Networks*.
+2. **Kebutuhan Riset Nyata di Era Cloud & IKN:**  
+   Investigasi forensik digital tradisional (*dead-box forensics*) sudah tidak relevan untuk arsitektur modern (*Cloud Microservices, Ephemeral Containers, Deepfakes, Fileless Malware*).
+3. **Peluang Publikasi Internasional Terindeks Scopus Q1/Q2:**  
+   Jurnal internasional bereputasi tinggi di bidang forensik digital seperti *IEEE Transactions on Information Forensics and Security (TIFS)*, *Forensic Science International: Digital Investigation (Elsevier)*, dan *Computers & Security*.
 
 ---
 
-## 📊 Matriks Pembedah & Perbandingan Komprehensif
+## 📑 4 Usulan Topik Disertasi Doktoral Unggulan (Domain Digital Forensik)
 
-| No | Parameter Komparasi | Topik 01 (Adaptive HCI & Technostress) | Topik 02 (Self-Healing CI/CD) | Topik 03 (Explainable Medical AI) | Topik 04 (Multi-Agent System Adoption) |
+1. [**Topik 01 (Rekomendasi Utama): Autonomous Digital Forensics Investigation Framework Based on Deep Graph Learning for Multi-Stage Attack Reconstruction in Cloud Microservices**](./Topik_01_Cloud_Container_Digital_Forensics_GNN.md)  
+   *(Cloud & Container Microservices Forensics Track)*
+2. [**Topik 02: Digital Evidence Forgery and Deepfake Detection Using Multi-Scale Vision Transformers with Calibrated Explainability Layer**](./Topik_02_Multimedia_Deepfake_Forgery_Forensics.md)  
+   *(Multimedia Forensics & Anti-Forensics Defense Track)*
+3. [**Topik 03: Volatile Memory Forensics Framework Based on Machine Learning for Stealth Malware Evidence Extraction in Smart City IoT**](./Topik_03_Live_Memory_Forensics_IoT_Malware.md)  
+   *(Live Memory Forensics & Fileless Malware Track)*
+4. [**Topik 04: Intelligent Digital Forensic Triage System Based on Autonomous Multi-Agent Systems and Knowledge Graph Reasoning**](./Topik_04_AI_Agent_Digital_Forensics_Triage.md)  
+   *(Automated Forensic Triage & Multi-Agent Track)*
+
+---
+
+## 📊 Matriks Komparasi 4 Alternatif Topik Digital Forensik
+
+| No | Parameter Komparasi | Topik 01 (Cloud Microservices Forensics) | Topik 02 (Multimedia & Deepfake Forensics) | Topik 03 (Live Memory & IoT Forensics) | Topik 04 (Multi-Agent Forensic Triage) |
 |:---|:---|:---|:---|:---|:---|
-| **1** | **Fokus Riset** | Pengurangan technostress & adaptasi UI real-time | Prediksi kegagalan penggelaran microservices | Diagnosis medis multi-modal yang dapat dijelaskan | Orkestrasi adopsi SPBE berbasis AI Agent |
-| **2** | **Algoritma / Engine Inti** | Hybrid CNN-LSTM / Temporal Transformer, Keystroke/Mouse Dynamics | Predictive Gradient Boosting, Bayesian Risk Optimizer | ConvNeXt, EfficientNet, Vision-Language Model, Grad-CAM | Multi-Agent Orchestrator (n8n/LangChain), Dynamic UTAUT Engine |
-| **3** | **State-of-the-Art Gap** | Evaluasi technostress selama ini bersifat kuesioner pasif pasca-kerja | Pipa CI/CD industri masih statis dan bergantung rollback manual | Black-box deep learning medis tanpa interpretabilitas klinis | Model adopsi sistem informasi (UTAUT) bersifat statis |
-| **4** | **Novelty Doktoral** | Engine adaptasi antarmuka otonom berbasis estimasi beban kognitif kontinu | Meta-model pipa CI/CD prediktif otonom dengan self-healing | Arsitektur fusi multi-modal interpretable dengan verifikasi dokter | Dynamic adaptive acceptance engine terdesentralisasi |
-| **5** | **Target Jurnal Q1/Q2** | *ACM TOCHI / Int. J. Human-Computer Studies* | *IEEE Trans. Software Engineering / JSS* | *IEEE JBHI / Artificial Intelligence in Medicine* | *Government Information Quarterly / ISF* |
+| **1** | **Fokus Investigasi** | Rekonstruksi rantai serangan pada ephemeral Docker/Kubernetes | Deteksi pemalsuan barang bukti digital citra & video | Ekstraksi artefak volatil malware di RAM tanpa reboot | Otomatisasi triage ribuan log insiden siber |
+| **2** | **Algoritma / Engine Inti** | System Provenance Graph + Dynamic Graph Neural Networks (GNN) | Multi-Scale Vision Transformer + Noise Print Extraction | Deep Autoencoder + Sub-Space Clustering pada Memori RAM | Multi-Agent LLM Orchestrator + Cybersecurity Knowledge Graph |
+| **3** | **State-of-the-Art Gap** | Kontainer cloud bersifat dinamis dan cepat hilang saat insiden | Deepfake semakin mulus dan lolos deteksi kompresi standar | Fileless malware tidak meninggalkan jejak pada hard disk fisik | Investigasi forensik manual memakan waktu berhari-hari |
+| **4** | **Novelty Doktoral S3** | Meta-model penelusuran asal-usul (provenance) berbasis graf temporal | Framework verifikasi keaslian bukti digital explainable | Algoritma ekstraksi jejak injeksi memori non-invasif | Framework orkestrasi agen forensik kolaboratif otonom |
+| **5** | **Target Jurnal Q1/Q2** | *IEEE TIFS / Forensic Science Int.: Digital Investigation* | *IEEE Trans. Multimedia / Computers & Security* | *IEEE Internet of Things Journal / J. Information Security* | *Expert Systems with Applications / Gov. Info. Quarterly* |
