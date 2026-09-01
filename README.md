@@ -1,20 +1,19 @@
-# 🎓 Master Repositori Usulan Proposal Disertasi Doktoral (PDIK UDINUS)
+# 🎓 Master Repositori Proposal Disertasi Doktoral (PDIK UDINUS)
 ### **Kandidat Calon Doktor: Hario Jati Setyadi, S.Kom., M.Kom.**
 **Afiliasi Institusi:** Program Studi S1 Sistem Informasi / S1 Informatika, Fakultas Teknik, Universitas Mulawarman  
 **Jabatan Profesi:** **Ketua APTIKOM (Asosiasi Pendidikan Tinggi Informatika dan Komputer) Provinsi Kalimantan Timur (Periode 2026–2030)**  
 **Program Studi Tujuan:** Program Doktor Ilmu Komputer (PDIK), Universitas Dian Nuswantoro (UDINUS)  
-**Bidang Minat Riset Pilihan:** **DIGITAL FORENSIK & KEAMANAN INFORMASI (Cybersecurity & Digital Forensics)**
+**Bidang Minat & Spesialisasi:** **DIGITAL FORENSIK, EXPLAINABLE AI & COMPUTER VISION**
 
 ---
 
-> ℹ️ **STATUS ALUR KERJA & PANDUAN PENGGUNAAN:**  
-> 1. **Fase Saat Ini (Eksplorasi & Pemilihan Topik Digital Forensik):** Berdasarkan arahan Pak Hario yang menginginkan bidang **Digital Forensik**, telah dirumuskan **4 Usulan Alternatif Topik Disertasi Doktoral** di folder [`01_USULAN_TOPIK_DISERTASI/`](./01_USULAN_TOPIK_DISERTASI/).  
-> 2. **Status Dokumen Proposal & Buku Saku Saat Ini:** Dokumen pada folder [`02_PANDUAN_WAWANCARA_DAN_STRATEGI_PDIK/`](./02_PANDUAN_WAWANCARA_DAN_STRATEGI_PDIK/) dan [`03_DRAFT_PROPOSAL_RESMI_PDIK/`](./03_DRAFT_PROPOSAL_RESMI_PDIK/) saat ini merupakan **CONTOH / ILUSTRASI PERCONTOHAN BERBASIS TOPIK 1 (Cloud Container Digital Forensics)** untuk memberikan gambaran standar kedalaman naskah dan kesiapan wawancara.  
-> 3. **Fase Selanjutnya (Finalisasi Pilihan):** Begitu Pak Hario telah menetapkan satu dari 4 opsi digital forensik yang paling beliau minati, **naskah proposal lengkap dan buku saku wawancara akan disusun ulang secara komprehensif mengikuti topik pilihan akhir tersebut**.
+### 🏆 **TOPIK DISERTASI PILIHAN DEFINITIF KANDIDAT:**
+> ## **"Arsitektur Neuro-Symbolic Concept Bottleneck Berbasis Spatial Feature Mining untuk Deteksi dan Transparansi Bukti Digital Gambar Generatif AI"**
+> *(English: "Neuro-Symbolic Concept Bottleneck Architecture Based on Spatial Feature Mining for Detection and Transparency of Generative AI Digital Image Evidence")*
 
 ---
 
-## 👤 Sekilas Profil Akademik Calon Mahasiswa S3
+## 👤 Profil Akademik Calon Mahasiswa S3
 
 | Parameter | Keterangan Data Resmi |
 | :--- | :--- |
@@ -32,49 +31,35 @@
 
 ---
 
-## 🏛️ 4 Usulan Topik Disertasi Bidang Digital Forensik
+## 🏗️ Desain Arsitektur Disertasi Definitif
 
 ```mermaid
 graph TD
-    subgraph Track1 ["Track 1: Cloud & Container Forensics"]
-        T1["Topik 1: Autonomous Attack Reconstruction in Cloud Microservices<br/>Fokus: Docker/K8s Ephemeral Telemetry, System Provenance Graph, GNN"]
-    end
-    subgraph Track2 ["Track 2: Multimedia & Deepfake Forensics"]
-        T2["Topik 2: Digital Evidence Forgery & Deepfake Detection<br/>Fokus: Multi-Scale Vision Transformer, Frequency Domain, Explainable XAI"]
-    end
-    subgraph Track3 ["Track 3: Live Memory & IoT Forensics"]
-        T3["Topik 3: Volatile Memory Forensics for Stealth IoT Malware<br/>Fokus: Kernel-Agnostic RAM Extraction, Deep Autoencoder, Fileless Malware"]
-    end
-    subgraph Track4 ["Track 4: Automated Multi-Agent Forensic Triage"]
-        T4["Topik 4: Intelligent Forensic Triage System (Multi-Agent)<br/>Fokus: Autonomous AI Agents, MITRE ATT&CK Knowledge Graph, Incident Response"]
+    subgraph Layer1 ["Layer 1: Spatial Feature Mining & Preprocessing"]
+        InputImage["Questioned Digital Evidence Image (X)"]
+        SpatialMiner["Spatial Feature Miner<br/>(Noise Print Residual, Local Gradient, Color Deviation)"]
+        Backbone["Deep Vision Backbone (ConvNeXt / Swin Transformer)"]
     end
 
-    Profile["Keahlian & Track Record<br/>Hario Jati Setyadi (Cybersecurity, Docker, AI)"] --> T1
-    Profile --> T2
-    Profile --> T3
-    Profile --> T4
+    subgraph Layer2 ["Layer 2: Concept Bottleneck Layer (CBM)"]
+        ConceptPred["Forensic Concept Predictor<br/>(Maps X -> Human-Interpretable Concept Vector C)"]
+        Concepts["Forensic Concepts (C):<br/>- C1: Illumination Inconsistency<br/>- C2: Facial/Edge Asymmetry<br/>- C3: Diffusion Artifact Texture<br/>- C4: Boundary Blending Discontinuity"]
+    end
+
+    subgraph Layer3 ["Layer 3: Neuro-Symbolic Reasoning & Decision"]
+        LogicEngine["Symbolic Logic Engine & First-Order Rules<br/>(Verifies: Physical & Biological Forensic Constraints)"]
+        Classifier["Transparent Final Decision (Y):<br/>Authentic vs. Generative AI Forgery"]
+        AuditReport["Court-Admissible Forensic Transparency Report<br/>(Visual Concept Attribution Map & Reasoning Trace)"]
+    end
+
+    InputImage --> SpatialMiner
+    SpatialMiner --> Backbone
+    Backbone --> ConceptPred
+    ConceptPred --> Concepts
+    Concepts --> LogicEngine
+    LogicEngine --> Classifier
+    LogicEngine --> AuditReport
 ```
-
-1. **[Topik 1 (Rekomendasi Utama - Cloud Track)]** [**Autonomous Digital Forensics Investigation Framework Based on Deep Graph Learning for Multi-Stage Attack Reconstruction in Cloud Microservices**](./01_USULAN_TOPIK_DISERTASI/Topik_01_Cloud_Container_Digital_Forensics_GNN.md)  
-   *Target Publikasi:* *IEEE Transactions on Information Forensics and Security (TIFS)* (Q1) / *Forensic Science International: Digital Investigation* (Q1).
-2. **[Topik 2 (Multimedia Forensics Track)]** [**Digital Evidence Forgery and Deepfake Detection Using Multi-Scale Vision Transformers with Calibrated Explainability Layer**](./01_USULAN_TOPIK_DISERTASI/Topik_02_Multimedia_Deepfake_Forgery_Forensics.md)  
-   *Target Publikasi:* *IEEE Transactions on Multimedia* (Q1) / *Computers & Security* (Q1).
-3. **[Topik 3 (Live Memory & IoT Track)]** [**Volatile Memory Forensics Framework Based on Machine Learning for Stealth Malware Evidence Extraction in Smart City IoT Devices**](./01_USULAN_TOPIK_DISERTASI/Topik_03_Live_Memory_Forensics_IoT_Malware.md)  
-   *Target Publikasi:* *IEEE Internet of Things Journal* (Q1) / *Journal of Information Security and Applications* (Q1).
-4. **[Topik 4 (Automated AI Agent Track)]** [**Intelligent Digital Forensic Triage System Based on Autonomous Multi-Agent Systems and Knowledge Graph Reasoning for Large-Scale Incident Response**](./01_USULAN_TOPIK_DISERTASI/Topik_04_AI_Agent_Digital_Forensics_Triage.md)  
-   *Target Publikasi:* *Expert Systems with Applications* (Q1) / *Forensic Science International: Digital Investigation* (Q1).
-
----
-
-## 📊 Matriks Komparasi 4 Alternatif Topik Digital Forensik
-
-| Parameter | Topik 1 (Cloud Container Forensics) | Topik 2 (Multimedia & Deepfake) | Topik 3 (Live Memory & IoT) | Topik 4 (Multi-Agent Triage) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Fokus Investigasi** | *Ephemeral Container Attack Chains* | *Media Forgery & Deepfake Tampering* | *Volatile RAM Fileless Malware* | *Automated Incident Response Triage* |
-| **Basis Algoritma/Model** | System Provenance Graph + GNN (TGAT) | Multi-Scale ViT + Wavelet/DCT Residual | Deep Autoencoder (VAE) + Kernel Parsing | Multi-Agent LLM + Knowledge Graph |
-| **Linearitas Profil** | Riset Jenkins/Docker (2025) & ISSAF | Riset ConvNeXt (2026) & EfficientNet | Riset Traffic SNMP & Pen-Testing | Riset AI Agent n8n (2026) |
-| **Tingkat Komputasi** | Tinggi (Kernel Trace & Graph Learning) | Tinggi (Dual-Domain Computer Vision) | Menengah–Tinggi (Memory Carving) | Menengah–Tinggi (Agent Orchestration) |
-| **Target Luaran** | IEEE TIFS / FSI: Digital Invest. (Q1) | IEEE Trans. Multimedia / C&S (Q1) | IEEE IoT Journal / JISA (Q1) | Expert Systems / FSI: Digital Invest. (Q1) |
 
 ---
 
@@ -82,24 +67,26 @@ graph TD
 
 ```text
 antonprafanto/hario
-├── README.md                                                        # Master Index & Dokumentasi Repositori
+├── README.md                                                                # Master Index & Dokumentasi Repositori Definitif
 │
 ├── 00_PROFILING/
-│   └── profil_lengkap_hario_jati_setyadi.md                         # Profil Akademik Mendalam & Terverifikasi
+│   └── profil_lengkap_hario_jati_setyadi.md                                 # Profil Akademik Mendalam & Terverifikasi
 │
 ├── 01_USULAN_TOPIK_DISERTASI/
-│   ├── README_Eksplorasi_Topik.md                                   # Analisis & Matriks Komparasi 4 Topik Digital Forensik
-│   ├── Topik_01_Cloud_Container_Digital_Forensics_GNN.md           # [Rekomendasi Utama] Cloud & Container Forensics GNN
-│   ├── Topik_02_Multimedia_Deepfake_Forgery_Forensics.md           # [Multimedia Track] Deepfake & Evidence Forgery Forensics
-│   ├── Topik_03_Live_Memory_Forensics_IoT_Malware.md               # [Memory Track] Live Volatile Memory Forensics IoT
-│   └── Topik_04_AI_Agent_Digital_Forensics_Triage.md              # [AI Agent Track] Autonomous Forensic Triage System
+│   ├── Topik_Pilihan_Definitif_Neuro_Symbolic_Concept_Bottleneck.md         # [DEFINITIF] Dokumen Arsitektur Teknis Pilihan Pak Hario
+│   ├── README_Eksplorasi_Topik.md                                           # Rekam Jejak Analisis 4 Opsi Topik Digital Forensik
+│   ├── Topik_01_Cloud_Container_Digital_Forensics_GNN.md                   # Arsip Opsi 1 (Cloud Container Forensics)
+│   ├── Topik_02_Multimedia_Deepfake_Forgery_Forensics.md                   # Arsip Opsi 2 (Multimedia & Deepfake Forensics)
+│   ├── Topik_03_Live_Memory_Forensics_IoT_Malware.md                       # Arsip Opsi 3 (Live Memory IoT Forensics)
+│   └── Topik_04_AI_Agent_Digital_Forensics_Triage.md                      # Arsip Opsi 4 (Multi-Agent Forensic Triage)
 │
 ├── 02_PANDUAN_WAWANCARA_DAN_STRATEGI_PDIK/
-│   └── Buku_Saku_Wawancara_PDIK_Hario_Jati_Setyadi.md              # [CONTOH TOPIK 1] Buku Saku & FAQ Promotor S3
+│   ├── Buku_Saku_Wawancara_PDIK_Hario_Jati_Setyadi.md                      # Buku Saku Wawancara Definitif (Format Markdown)
+│   └── Buku_Saku_Wawancara_PDIK_Hario_Jati_Setyadi.docx                    # Buku Saku Wawancara Definitif Resmi (Format Word)
 │
 └── 03_DRAFT_PROPOSAL_RESMI_PDIK/
-    ├── Draft_Naskah_Proposal_Disertasi_PDIK_Hario_Jati_Setyadi.md   # [CONTOH TOPIK 1] Naskah Proposal Markdown
-    └── Rencana_Proposal_Disertasi_Hario_Jati_Setyadi_PDIK_UDINUS.docx # [CONTOH TOPIK 1] Dokumen Word Resmi
+    ├── Draft_Naskah_Proposal_Disertasi_PDIK_Hario_Jati_Setyadi.md           # Naskah Proposal Disertasi Definitif Resmi PDIK
+    └── Rencana_Proposal_Disertasi_Hario_Jati_Setyadi_PDIK_UDINUS.docx         # Naskah Proposal Word Resmi Siap Kirim/Cetak
 ```
 
 ---
